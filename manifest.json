@@ -1,0 +1,13 @@
+{
+    "name": "Linkify",
+    "version": "1.1",
+    "description": "Make HTTP/HTTPS links clickable",
+    "manifest_version": 2,
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+  }

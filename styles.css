@@ -1,0 +1,56 @@
+html {
+    font-size: 16px;
+    min-width: 900px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    padding: 20px 40px;
+}
+
+h1 {
+    margin: 10px;
+    color: #8623f7;
+    font-size: 2rem;
+    margin: auto;
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+#popup-container {
+    font-size: 1rem;
+    color:rgb(81, 81, 81);
+    width: auto;
+    overflow-x: none;
+}
+
+a {
+    color: cornflowerblue;
+}
+
+.actual,
+.reference,
+.difference {
+    font-weight: bold;
+}
+
+.actual {
+    color: blue;
+}
+
+.reference {
+    color: limegreen;
+}
+
+.difference {
+    color: red;
+}
+
+.hint {
+    font-size: 1.5rem;
+    color:orange;
+}
